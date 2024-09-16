@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    outline: none;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+:root {
+    --dark-blue: #262E38;
+    --light-grey: #969FAD;
+    --orange: #FC7614;
+    --very-dark-blue: #131518;
+    --black-radial-gradient: --radial-gradient: (#232a34, #181e27);
+}
