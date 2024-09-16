@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -8,6 +10,7 @@
 
 html {
     font-size: 62.5%;
+    font-family: "Overpass";
 }
 
 :root {
@@ -15,5 +18,80 @@ html {
     --light-grey: #969FAD;
     --orange: #FC7614;
     --very-dark-blue: #131518;
-    --black-radial-gradient: --radial-gradient: (#232a34, #181e27);
+    --black-radial-gradient: radial-gradient(#232a34, #181e27);
 }
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+h2 {
+    color: white;
+    font-size: 2.4rem;
+}
+
+p {
+    color: var(--light-grey);
+    font-size: 1.4rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="radio"] {
+    opacity: 0;
+    width: 0;
+    position: fixed;
+}
+
+label {
+    color: var(--light-grey);
+    background-color: var(--dark-blue);
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: var(--very-dark-blue);
+    padding: 2.4rem;
+}
+
+.card {
+    padding: 2.4rem;
+    border-radius: 1.5rem;
+    min-height: min(50%, 41.6rem);
+    max-height: 41.6rem;
+    width: min(100%, 41.2rem);
+    background: var(--black-radial-gradient);
+    border: 1px solid red;
+}
+
+.img-container {
+    border-radius: 50%;
+    padding: .6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--dark-blue);
+    width: 4rem;
+    height: 4rem;
+}
+
+.ratings-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
