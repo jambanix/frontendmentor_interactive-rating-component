@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/jambanix/frontendmentor_interactive-rating-component)
+- Live Site URL: [Here](https://jambanix.github.io/frontendmentor_interactive-rating-component/)
 
 ## My process
 
@@ -48,7 +48,7 @@ Users should be able to:
 
 ### What I learned
 
-I learned how to customise radio buttons - I had to find some ideas from different links on google - I don't have the links anymore though
+I learned how to customise radio buttons - I had to find some ideas from different links on google - I don't have the links anymore though. I also learned that the forEach array method does not exit when returning.
 
 ### Continued development
 
