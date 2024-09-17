@@ -16,32 +16,34 @@
         <div class="img-container"><img src="images/icon-star.svg" alt=""></div>
         <h2>How did we do?</h2>
         <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
-        <form class="rating">
-          <div class="ratings-container">
-            <input class="rating" type="radio" name="rating" id="rating-1">
-            <label for="rating-1">1</label>
+        
+        <fieldset class="ratings-container">
+          <input class="rating" type="radio" name="rating" id="rating-1" />
+          <label for="rating-1">1</label>
+          
+          <input class="rating" type="radio" name="rating" id="rating-2" />
+          <label for="rating-2">2</label>
 
-            <input class="rating" type="radio" name="rating" id="rating-2">
-            <label for="rating-2">2</label>
+          <input class="rating" type="radio" name="rating" id="rating-3" />
+          <label for="rating-3">3</label>
 
-            <input class="rating" type="radio" name="rating" id="rating-3">
-            <label for="rating-3">3</label>
+          <input class="rating" type="radio" name="rating" id="rating-4" />
+          <label for="rating-4">4</label>
 
-            <input class="rating" type="radio" name="rating" id="rating-4">
-            <label for="rating-4">4</label>
-
-            <input class="rating" type="radio" name="rating" id="rating-5">
-            <label for="rating-5">5</label>
-          </div>
-          <input type="submit" value="submit">
-        </form>
+          <input class="rating" type="radio" name="rating" id="rating-5" />
+          <label for="rating-5">5</label>
+        </fieldset>
+        <button>Submit</button>
       </section>
 
-      <!-- ! Thank you -->
-      <section class="complete">
-
+      <section class="results">
+        <div class="results-img-container"><img src="images/illustration-thank-you.svg" alt=""></div>
+        <div class="score"><h4>You selected <span>X</span> out of 5</h4></div>
+        <h2>Thank you!</h2>
+        <p>We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch!</p>
       </section>
     </main>
   </div>
+  <script src="script.js"></script>
 </body>
 </html>
